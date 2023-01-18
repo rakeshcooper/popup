@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="pop-container">
+        <div class="overlay" id="overlay"></div>
+        <div class="btn-row">
+            <button onclick="pop1()">Submit 1</button>
+            <button onclick="pop2()">Submit 2</button>
+            <button onclick="pop3()">Submit 3</button>
+            <button onclick="pop4()">Submit 4</button>
+            <button onclick="pop5()">Submit 5</button>
+            <div class="popup"></div>
+            <div class="popup-1" id="popup-1">
+                <h1>Thank You</h1>
+                <h3>Your application is submitted successfully</h3>
+                <button onclick="closepop()" class="pop-btn">ok</button>
+            </div>
+            <div class="popup-2" id="popup-2">
+                <h1>Good Day</h1>
+                <h3>Your day will be great</h3>
+                <button onclick="closepop()" class="pop-btn">ok</button>
+            </div>
+            <div class="popup-3" id="popup-3">
+                <h1>Times up</h1>
+                <h3>Your time is up please press ok</h3>
+                <button onclick="closepop()" class="pop-btn">ok</button>
+            </div>
+            <div class="popup-4" id="popup-4">
+                <h1>Fabulous Morning</h1>
+                <h3>Your having wonderful morning</h3>
+                <button onclick="closepop()" class="pop-btn">ok</button>
+            </div>
+            <div class="popup-5" id="popup-5">
+                <h1>Game Over</h1>
+                <h3>Your game is over please try again</h3>
+                <button onclick="closepop()" class="pop-btn">ok</button>
+            </div>
+        </div>
+    </div>
+    <script src="pop.js"></script>
+</body>
+</html>
