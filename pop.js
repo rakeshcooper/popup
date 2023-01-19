@@ -38,7 +38,7 @@ function pop5(){
 }
 
 function overlay(){
-    overlays.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+    overlays.style.backgroundColor = "rgba(0, 0, 0, 0.6)";
     overlays.style.zIndex = '1';
 }
 
